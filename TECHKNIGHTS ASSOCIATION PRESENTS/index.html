@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techknights Symposium</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>TECHKNIGHTS ASSOCIATION</h1>
+          <p class="subtitle">PRESENTS</p>
+        </div>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#about" class="nav-link">ABOUT US</a>
+          <a href="#event" class="nav-link">EVENT</a>
+          <a href="#register" class="nav-link nav-cta">REGISTER</a>
+        </nav>
+      </div>
+      <hr class="divider" />
+    </header>
+
+    <main>
+      <!-- ABOUT -->
+      <section id="about" class="section section-hero">
+        <div class="container">
+          <h2>ABOUT US</h2>
+
+          <p class="lead">Department of Computer Science and Business System</p>
+          <p class="lead">International Level Symposium on 5th October, 2024</p>
+          <p class="quote">“Towen Gen3”</p>
+
+          <p class="lead">Technical + Non-Technical Events with exciting prizes!</p>
+          <p class="muted">Techknights Association welcomes you to explore new horizons.</p>
+
+          <div class="meta">
+            <span class="meta-item">📅 05/10/2024</span>
+            <span class="meta-item">⏰ 9:00am – 4:00pm</span>
+          </div>
+
+          <div class="social">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- EVENT -->
+      <section id="event" class="section">
+        <div class="container">
+          <h2>FRONTEND MENTOR</h2>
+          <p class="sublead">Unlock and Elevate Your Frontend Skills</p>
+
+          <div class="event-card">
+            <p>
+              Frontend Mentor is an exciting event for developers where you need to
+              code a given web design using HTML, CSS, and JavaScript.
+            </p>
+
+            <ul class="bullets">
+              <li>Real design brief</li>
+              <li>Fast building + clean UI</li>
+              <li>Prizes for top performers</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- REGISTER -->
+      <section id="register" class="section">
+        <div class="container">
+          <h2>REGISTER HERE</h2>
+          <p class="sublead">Fill this form</p>
+
+          <form class="form" id="regForm">
+            <div class="grid">
+              <label>
+                Name
+                <input name="name" type="text" required placeholder="Your name" />
+              </label>
+
+              <label>
+                Email
+                <input name="email" type="email" required placeholder="you@example.com" />
+              </label>
+
+              <label>
+                Number
+                <input name="phone" type="tel" required placeholder="10-digit number" />
+              </label>
+
+              <label>
+                College
+                <input name="college" type="text" required placeholder="College name" />
+              </label>
+
+              <label>
+                Dept
+                <input name="dept" type="text" required placeholder="Department" />
+              </label>
+
+              <label>
+                DOB
+                <input name="dob" type="date" required />
+              </label>
+            </div>
+
+            <fieldset class="fieldset">
+              <legend>Year</legend>
+              <label><input type="radio" name="year" value="1st" required /> 1st</label>
+              <label><input type="radio" name="year" value="2nd" /> 2nd</label>
+              <label><input type="radio" name="year" value="3rd" /> 3rd</label>
+              <label><input type="radio" name="year" value="4th" /> 4th</label>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend>Gender</legend>
+              <label><input type="radio" name="gender" value="male" required /> Male</label>
+              <label><input type="radio" name="gender" value="female" /> Female</label>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend>Skills</legend>
+              <label><input type="checkbox" name="skills" value="HTML" /> HTML</label>
+              <label><input type="checkbox" name="skills" value="CSS" /> CSS</label>
+              <label><input type="checkbox" name="skills" value="JavaScript" /> JavaScript</label>
+            </fieldset>
+
+            <label class="full">
+              Why joining this event?
+              <textarea name="reason" rows="5" placeholder="Your reason..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Submit</button>
+
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© Techknights Association</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
