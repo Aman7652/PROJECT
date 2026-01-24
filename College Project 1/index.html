@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Enhanced College Project – modern, responsive, minimal files." />
+  <title>Team SiteSavvy | College Project</title>
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to content</a>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="#home" aria-label="Go to Home">
+      <!-- Logo as code (inline SVG) -->
+      <svg class="brand-logo" width="40" height="40" viewBox="0 0 64 64" role="img" aria-label="SiteSavvy logo" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="var(--accent)"/>
+            <stop offset="1" stop-color="var(--accent-2)"/>
+          </linearGradient>
+        </defs>
+        <rect x="6" y="6" width="52" height="52" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+        <path d="M18 36c6-14 22-20 28-8 2 4 1 9-2 12-6 6-18 8-26-4z" fill="url(#g)" opacity="0.95"/>
+        <path d="M22 40c7 6 22 2 24-8" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="22" cy="25" r="3" fill="rgba(255,255,255,0.8)"/>
+      </svg>
+      <div class="brand-title">
+        <strong>Team SiteSavvy</strong>
+        <span>College Project • Enhanced UI</span>
+      </div>
+    </a>
+
+    <nav class="nav" data-nav aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="btn small menu-btn" data-menu-btn aria-expanded="false" aria-controls="menu">Menu</button>
+  </div>
+</header>
+
+<main>
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="badge"><i></i> Minimal files • Faster load • Better look</div>
+        <h1>We craft clean, fast, and beautiful web experiences.</h1>
+        <p class="lead">
+          A single-page, College Project website — consistent UI, responsive layout.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="#portfolio">Explore Work</a>
+          <a class="btn" href="#services">View Services</a>
+          <a class="btn" href="assets/docs/cv.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        </div>
+      </div>
+
+      <div class="card hero-card">
+        <!-- Hero illustration as code (inline SVG) -->
+        <div class="hero-illustration" aria-hidden="true">
+          <svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="var(--accent)" stop-opacity="0.9"/>
+                <stop offset="1" stop-color="var(--accent-2)" stop-opacity="0.9"/>
+              </linearGradient>
+              <radialGradient id="gl" cx="35%" cy="30%" r="70%">
+                <stop offset="0" stop-color="white" stop-opacity="0.22"/>
+                <stop offset="1" stop-color="white" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect x="14" y="18" width="872" height="484" rx="28" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.14)"/>
+            <rect x="40" y="46" width="820" height="64" rx="18" fill="rgba(255,255,255,0.06)"/>
+            <circle cx="78" cy="78" r="9" fill="rgba(255,255,255,0.35)"/>
+            <circle cx="112" cy="78" r="9" fill="rgba(255,255,255,0.35)"/>
+            <circle cx="146" cy="78" r="9" fill="rgba(255,255,255,0.35)"/>
+
+            <g>
+              <rect x="40" y="132" width="520" height="330" rx="22" fill="url(#gl)"/>
+              <rect x="64" y="156" width="360" height="18" rx="9" fill="rgba(255,255,255,0.32)"/>
+              <rect x="64" y="188" width="270" height="14" rx="7" fill="rgba(255,255,255,0.22)"/>
+              <rect x="64" y="226" width="458" height="110" rx="18" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+              <rect x="64" y="354" width="220" height="16" rx="8" fill="rgba(255,255,255,0.22)"/>
+              <rect x="64" y="382" width="300" height="16" rx="8" fill="rgba(255,255,255,0.18)"/>
+              <rect x="64" y="410" width="180" height="16" rx="8" fill="rgba(255,255,255,0.14)"/>
+            </g>
+
+            <g>
+              <rect x="586" y="132" width="274" height="148" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+              <path d="M616 240c20-52 70-86 118-76 46 10 70 56 54 92-16 36-62 48-102 38-44-10-84-10-70-54z" fill="url(#hg)" opacity="0.95"/>
+              <rect x="586" y="314" width="274" height="148" rx="22" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)"/>
+              <rect x="612" y="338" width="190" height="14" rx="7" fill="rgba(255,255,255,0.22)"/>
+              <rect x="612" y="364" width="226" height="14" rx="7" fill="rgba(255,255,255,0.18)"/>
+              <rect x="612" y="390" width="160" height="14" rx="7" fill="rgba(255,255,255,0.14)"/>
+              <rect x="612" y="420" width="120" height="36" rx="12" fill="rgba(110,231,255,0.20)" stroke="rgba(110,231,255,0.35)"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat"><strong>1</strong><span>Single page</span></div>
+          <div class="stat"><strong>2</strong><span>Core assets</span></div>
+          <div class="stat"><strong>0</strong><span>Local images</span></div>
+        </div>
+        <p class="muted" style="margin:14px 0 0; font-size: 14px;">Tip: Open in mobile width — the menu collapses automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>About</h2>
+          <p>A clearer story, better UI, and clean structure (no duplicate pages).</p>
+        </div>
+        <span class="pill">Clean & Modern</span>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 style="margin:0 0 10px;">What we built</h3>
+          <p style="margin:0; color:var(--muted);">
+            This is an upgraded College Project website with a consistent theme, better spacing, and a single-page experience.
+            Logos and hero graphics are generated using <b>SVG code</b>, so nothing breaks when images are missing.
+          </p>
+
+          <div style="margin-top:16px; display:flex; flex-wrap:wrap; gap:10px;">
+            <span class="kbd">HTML</span>
+            <span class="kbd">CSS</span>
+            <span class="kbd">JS</span>
+            <span class="kbd">Responsive</span>
+            <span class="kbd">Accessible</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 10px;">Why it’s better now</h3>
+          <ul style="margin:0; padding-left:18px; color:var(--muted);">
+            <li>Everything merged into fewer files (easy to submit / host).</li>
+            <li>No local logo dependency — replaced with SVG logo code.</li>
+            <li>Cleaner section layout for judges and viewers.</li>
+            <li>Professional color palette: <b>Midnight + Cyan + Violet</b>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Services</h2>
+          <p>What we can do for clients / projects.</p>
+        </div>
+        <span class="pill">Value</span>
+      </div>
+
+      <div class="grid-3">
+  <!-- Existing + Enhanced -->
+  <div class="card feature">
+    <span class="pill">UI/UX</span>
+    <h3>Website UI Enhancement</h3>
+    <p>Modern layouts, premium spacing, and clean typography for a professional look.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Frontend</span>
+    <h3>Single Page + File Reduction</h3>
+    <p>Convert multi-page projects into 1 clean page with fewer files and better performance.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Performance</span>
+    <h3>Speed & Optimization</h3>
+    <p>Remove heavy assets, reduce code duplication, and improve loading speed.</p>
+  </div>
+
+  <!-- NEW SERVICES (From your CV skills) -->
+  <div class="card feature">
+    <span class="pill">Power BI</span>
+    <h3>Dashboard Creation</h3>
+    <p>Interactive dashboards with KPIs, slicers, and clean visuals for decision-making.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Excel</span>
+    <h3>Advanced Excel Analysis</h3>
+    <p>Data cleaning, Pivot Tables, formulas, and reporting in a structured way.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">SQL</span>
+    <h3>SQL Queries & Reporting</h3>
+    <p>MySQL/PostgreSQL queries (joins, filtering, aggregations) for insights and reports.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Python</span>
+    <h3>Data Cleaning with Python</h3>
+    <p>Use Pandas & NumPy to clean data and prepare datasets for analysis.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Visualization</span>
+    <h3>Charts & Insights</h3>
+    <p>Meaningful charts using Matplotlib/Seaborn + clear business insights.</p>
+  </div>
+
+  <div class="card feature">
+    <span class="pill">Reports</span>
+    <h3>Professional Documentation</h3>
+    <p>Create project reports, README files, and presentations for hackathons & internships.</p>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Portfolio</h2>
+          <p>Small showcase cards (design-only) — easy to extend.</p>
+        </div>
+        <span class="pill">Showcase</span>
+      </div>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3 style="margin:0 0 8px;">Landing Page</h3>
+          <p style="margin:0; color:var(--muted);">Hero + CTA + modern visuals using gradients & SVG.</p>
+          <div class="mini-mock" aria-hidden="true"></div>
+        </article>
+        <article class="card">
+          <h3 style="margin:0 0 8px;">Event Website</h3>
+          <p style="margin:0; color:var(--muted);">A clean event page style with sections and a form.</p>
+          <div class="mini-mock" aria-hidden="true"></div>
+        </article>
+        <article class="card">
+          <h3 style="margin:0 0 8px;">Team Profile</h3>
+          <p style="margin:0; color:var(--muted);">Cards for team members + resume links.</p>
+          <div class="mini-mock" aria-hidden="true"></div>
+        </article>
+      </div>
+
+      <p class="muted" style="margin-top:14px;">Note: These mock previews are generated via CSS.</p>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <h2>Team</h2>
+          <p>All avatars are online placeholders.</p>
+        </div>
+        <span class="pill">Members</span>
+      </div>
+
+      <div class="team">
+        <!-- Using DiceBear (online avatars) -->
+         <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Aman Kesarwani" src="https://api.dicebear.com/7.x/identicon/svg?seed=Aman%20Kesarwani" /></div>
+            <div>
+              <h3>Aman Kesarwani</h3>
+              <small>Frontend • UI/UX</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="assets/docs/cv.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Jyoti Khemnani" src="https://api.dicebear.com/7.x/identicon/svg?seed=Jyoti%20Khemnani" /></div>
+            <div>
+              <h3>Jyoti Khemnani</h3>
+              <small>Resume</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="assets/docs/Jk.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Manvender Bhardwaj" src="https://api.dicebear.com/7.x/identicon/svg?seed=Manvender%20Bhardwaj" /></div>
+            <div>
+              <h3>Manvender Bhardwaj</h3>
+              <small>Frontend Enthusiast</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="assets/docs/Manvender_Bharadwaj_Resume.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Bablu Kumar" src="https://api.dicebear.com/7.x/identicon/svg?seed=Bablu%20Kumar" /></div>
+            <div>
+              <h3>Bablu Kumar</h3>
+              <small>Resume</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="assets/docs/BabluKumarSawResume%20.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Saurabh Singh" src="https://api.dicebear.com/7.x/identicon/svg?seed=Saurabh%20Singh" /></div>
+            <div>
+              <h3>Saurabh Singh</h3>
+              <small>Team member</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="assets/docs/Sourabh_Singh_Resume.pdf" target="_blank" rel="noreferrer">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="card member">
+          <div class="member-top">
+            <div class="avatar"><img alt="Ishant Yadav" src="https://api.dicebear.com/7.x/identicon/svg?seed=Ishant%20Yadav" /></div>
+            <div>
+              <h3>Ishant Yadav</h3>
+              <small>External preview</small>
+            </div>
+          </div>
+          <div class="member-actions">
+            <a class="btn small" href="https://www.locofy.ai/preview/zpc63KCYIslu72Fs%2BrwhYrIKV90X0L%2B85nq%2FxgQVfviwgbVXcTVaHhsGU9izdTNwQmvdLen5T14SDeHe7kQo36DPHc0WXHeFvA%3D%3D/Untitled---8" target="_blank" rel="noreferrer">Open Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Contact</h2>
+        <p>Let’s build something clean, fast, and professional. Reply within 24 hours.</p>
+      </div>
+      <span class="pill">Available for work</span>
+    </div>
+
+    <div class="contact-grid">
+      <!-- LEFT: Contact info -->
+      <aside class="card contact-side">
+        <div class="contact-title">
+          <h3>Get in touch</h3>
+          <p>Prefer WhatsApp, email, or LinkedIn? Choose what’s easiest.</p>
+        </div>
+
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:amankesarwani0928@gmail.com">
+            <span class="contact-ic" aria-hidden="true">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <span>amankesarwani0928@gmail.com</span>
+            </div>
+          </a>
+
+          <a class="contact-card" href="tel:+917652059102">
+            <span class="contact-ic" aria-hidden="true">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <span>+91 76520 59102</span>
+            </div>
+          </a>
+
+          <a class="contact-card" href="https://wa.me/917652059102" target="_blank" rel="noreferrer">
+            <span class="contact-ic" aria-hidden="true">💬</span>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Chat instantly</span>
+            </div>
+          </a>
+
+          <div class="contact-card no-link">
+            <span class="contact-ic" aria-hidden="true">📍</span>
+            <div>
+              <strong>Location</strong>
+              <span>Ramnagariya, Jaipur</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-social">
+          <p class="muted" style="margin:0;">Social</p>
+          <div class="contact-social-row">
+            <a class="btn small" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn small" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn small" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+
+        <div class="contact-proof">
+          <div class="proof-pill">✅ Power BI Dashboards</div>
+          <div class="proof-pill">✅ SQL + Excel Analysis</div>
+          <div class="proof-pill">✅ Website UI Enhancement</div>
+          <div class="proof-pill">✅ Single-page + File Reduction</div>
+        </div>
+      </aside>
+
+      <!-- RIGHT: Form -->
+      <div class="card contact-form-card">
+        <div class="form-head">
+          <h3>Send a message</h3>
+          <p class="muted">Tell me your goal + timeline. I’ll respond quickly.</p>
+        </div>
+
+        <form class="contact-form" data-contact-form>
+          <label>
+            Your Name
+            <input required name="name" placeholder="Aman / Client name" />
+          </label>
+
+          <label>
+            Your Email
+            <input required type="email" name="email" placeholder="you@example.com" />
+          </label>
+
+          <label>
+            Service Needed
+            <select name="service" required>
+              <option value="" selected disabled>Select a service</option>
+              <option>Website UI Enhancement</option>
+              <option>Single Page + File Reduction</option>
+              <option>Power BI Dashboard</option>
+              <option>SQL / Data Analysis</option>
+              <option>Excel Reporting</option>
+              <option>Python Data Cleaning</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label>
+            Budget (optional)
+            <input name="budget" placeholder="e.g., ₹2000 / $50" />
+          </label>
+
+          <label class="full">
+            Message
+            <textarea required name="message" rows="6" placeholder="Describe what you want to build…"></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send Message</button>
+            <a class="btn ghost" href="assets/docs/cv.pdf" target="_blank" rel="noreferrer">View CV</a>
+          </div>
+
+          <p class="form-note" data-form-note></p>
+        </form>
+
+        <div class="contact-faq">
+          <div class="faq">
+            <strong>How fast do you reply?</strong>
+            <span>Usually within 24 hours.</span>
+          </div>
+          <div class="faq">
+            <strong>Can you improve an existing project?</strong>
+            <span>Yes — UI redesign + fewer files + responsive fixes.</span>
+          </div>
+          <div class="faq">
+            <strong>Do you provide reports/dashboards?</strong>
+            <span>Yes — Power BI + Excel + SQL insights.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
+    <span>© 2026 Team SiteSavvy</span>
+    <span>Theme: Midnight + Cyan + Violet • Built for hackathon</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script>
+  // Demo contact form message
+  const form=document.querySelector('[data-contact-form]');
+  const note=document.querySelector('[data-form-note]');
+  if(form&&note){
+    form.addEventListener('submit',(e)=>{
+      e.preventDefault();
+      note.textContent='✅ Message captured (demo). Connect Google Forms / EmailJS to receive it.';
+      form.reset();
+    });
+  }
+</script>
+</body>
+</html>
