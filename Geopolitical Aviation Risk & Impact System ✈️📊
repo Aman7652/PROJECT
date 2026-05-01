@@ -1,0 +1,42 @@
+Overview
+The Geopolitical Aviation Risk & Impact System is an end-to-end data analytics project designed to quantify the operational and financial toll of regional conflicts on the global aviation industry. By integrating multiple datasets, this system moves beyond qualitative "guesses" to provide data-driven insights into how airspace closures affect airline profitability and flight efficiency.
+
+The Problem
+
+Global aviation faces massive disruptions during regional conflicts, specifically in high-traffic corridors like the Middle East. These events lead to:
+Financial Loss: Drastic drops in revenue and spikes in operational costs.
+Operational Strain: Massive flight reroutes and increased fuel consumption.
+Systemic Bottlenecks: Congestion in safe corridors leading to cascading delays.
+
+
+Technical Stack
+
+Database: MySQL (Relational Schema Design)
+Languages: SQL
+Tools: MySQL Workbench
+
+Key Features & SQL Techniques
+
+Data Ingestion: Engineered a robust pipeline using LOAD DATA LOCAL INFILE to handle complex CSV formatting and date transformations.
+Financial Benchmarking: Authored Correlated Subqueries to identify airlines whose losses significantly exceeded regional averages.
+Trend Analysis: Utilised Window Functions (LAG, OVER) to track chronological escalations in flight reroute distances and identify cost spikes.
+Strategic Reporting: Developed Common Table Expressions (CTEs) to correlate geopolitical airspace closures with country-level fuel overhead.
+
+Database Schema
+
+The system integrates 7+ disparate datasets:
+airline_losses: Financial impact and revenue loss percentages.
+flight_reroutes: Detailed logs of detour distances and extra fuel costs.
+airspace_closures: Log of closed flight corridors and durations.
+airport_disruptions: Ground stops, security lockdowns, and affected passenger counts.
+conflict_events: Categorised severity levels of regional events.
+
+
+Key Insights
+Total Market Impact: Tracked a total estimated loss of $9.99 Billion across the analysed carriers.
+The "Traffic Jam" Effect: Discovered that ATC Flow Management caused more cumulative downtime (1,000+ hours) than active combat zones.
+Carrier Vulnerability: Identified that while major hubs (UAE, Qatar) face the highest total costs, smaller regional carriers like flydubai saw the highest percentage-based revenue hits (50.6%).
+
+
+Author
+Aman Kesarwani
